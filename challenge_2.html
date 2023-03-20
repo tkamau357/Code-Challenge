@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mocha</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/mocha/mocha.css" />
+  </head>
+  <body>
+    <script>
+        let speed = parseInt(prompt("Enter car speed (in km/h):"));
+
+        if (speed <= 70) {
+        console.log("Ok");
+        } else {
+        let points = Math.floor((speed - 70) / 5);
+        if (points > 12) {
+            console.log("License suspended");
+        } else {
+            console.log("Points: " + points);
+            }
+        }
+    </script>
+  </body>
+</html>
