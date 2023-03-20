@@ -16,4 +16,7 @@ For example, if the speed is 80, it should print: “Points: 2”. If the driver
 Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
 
 ## Project setup<br>
+After donwloading the file, to run the code, go to any of the code challenge HTML file, open it and then run the code. A prompt message will appear on the browser, enter the input required and press enter. After this, you will go back the application you are using to run the code, and go to the debug console where the output is displayed.<br>
 
+## Author<br>
+Done by John Thairu Kamau
